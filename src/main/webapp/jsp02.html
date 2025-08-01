@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script src = "https://code.jquery.com/jquery.min.js"></script>
+<script>
+ $(function(){
+	 
+})
+</script>
+</head>
+<body>
+	<h2> 서버로 값 보내기(2가지방법)</h2>
+	<p>1번 방법 : a 태그 <a href ="http://localhost:8080/prjJSP01/oracle01.jsp?Uname=조홍규">값 전달1</a></p>
+	<hr>
+	<p>2번 방법 form tag 안의 input 태그로 전달</p>
+	<form action = "http://localhost:8080/prjJSP01/oracle01.jsp" method = "GET"> <!--  -->
+	이름 입력<input type = "text" name = "Uname" /><br>
+	<input type = "submit" value ="전송"/>
+	</form>
+</body>
+</html>
