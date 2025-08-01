@@ -12,6 +12,6 @@
 </script>
 </head>
 <body>
-<h2> ㅎㅎㅎㅎㅎㅎㅎㅎㅎㅎㅎㅎ</h2>
+<h2> 호호호</h2>
 </body>
 </html>
